@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+/*for all big section*/
+.all{
+    min-width: 1213px;
+    max-width: 1400px;
+    margin: 0 auto;
+    border:3px solid rgb(227, 40, 102);
+    border-radius: 7px;
+    margin-bottom: 5px;
+}
+
+/*for header*/
+header{
+    height: 120px;
+    background-color: rgb(247, 236, 236);
+    position: relative;
+    top:0;
+}
+.headerimg{
+    display: inline-block;
+    
+}
+ul{
+position: absolute;
+right:10px;
+bottom: 10px;
+font-size: 25px;
+
+}
+nav,
+ul li{
+     display: inline-block;   
+     
+ }
+ ul li a{
+     margin-left: 10px;
+     color: rgb(238, 23, 95);
+     text-decoration: none;
+ }
+ ul li a:hover{
+color:white;
+font-size: 27px;
+ }
+
+ main{height: 400px;
+    background-color: rgb(247, 236, 236); 
+    position: relative;/*aktivacnum vorpes cnox element*/
+ }
+ .imgsize{
+     width: 400px;
+     height: 300px;
+     border:1px solid rgb(227, 40, 102);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     position: absolute;
+     
+ }
+ .div1{
+     background-image: url("/img/1.jpg");
+     left:90px;
+     top:45px;
+
+ }
+ .div1:hover{
+    border:5px solid rgb(227, 40, 102);
+    top:25px;
+    left:40px; 
+ }
+
+ .div2{
+     background-image: url("/img/2.jpg");
+     top:45px;
+     left:497px;
+ }
+ .div2:hover{
+    border:5px solid rgb(227, 40, 102);
+    top:25px;
+    left:450px; 
+ }
+ .div3{
+     background-image: url("/img/3.jpg");
+     right:90px;
+     top:45px;
+ }
+ .div3:hover{
+    border:5px solid rgb(227, 40, 102);
+    top:25px;
+    right:140px;
+}
+/*mocak*/
+.parent{
+    width: 400px;
+     height: 350px;
+     border:1px solid rgb(227, 40, 102);
+     background-image: url("/img/4.jpg");
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     position: absolute;
+     left:150px;
+     top:25px;
+     
+}
+.parent:hover{
+    border:5px solid rgb(227, 40, 102);
+}
+.child{
+    width: 300px;
+     height: 250px;
+     border:1px solid rgb(227, 40, 102);
+     background-image: url("/img/4.jpg");
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     position: absolute;
+     left:50px;
+     top:25px;
+    
+}
+.child:hover{
+    border:5px solid rgb(227, 40, 102);
+}
+.element{
+    width: 200px;
+    height: 150px;
+    border:1px solid rgb(227, 40, 102);
+    background-image: url("/img/4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left:50px;
+    top:25px;
+    
+}
+.element:hover{
+    border:5px solid rgb(227, 40, 102);
+}
+.parent2{
+    width: 400px;
+     height: 350px;
+     border:1px solid rgb(227, 40, 102);
+     background-image: url("/img/12.png");
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     position: absolute;
+     right:150px;
+     top:40px;
+}
+.parent2:hover{
+    border:7px solid rgb(227, 40, 102);
+}
+.child2{
+    width: 350px;
+     height: 300px;
+     border:1px solid rgb(227, 40, 102);
+     background-image: url("/img/12.png");
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     position: absolute;
+     left:25px;
+     top:25px
+    
+}
+.child2:hover{
+    border:7px solid rgb(227, 40, 102);
+}
+.element2{
+    width: 300px;
+    height: 250px;
+    border:1px solid rgb(227, 40, 102);
+    background-image: url("/img/12.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left:25px;
+    bottom:25px;
+    
+}
+.element2:hover{
+    border:7px solid rgb(227, 40, 102);
+    bottom: 110px;
+}
+footer{
+    height: 70px;
+    background-color: rgb(247, 236, 236); 
+    color:rgb(243, 9, 48);
+    font-size: 50px;
+    text-align: center;
+    line-height: 70px;
+
+}
